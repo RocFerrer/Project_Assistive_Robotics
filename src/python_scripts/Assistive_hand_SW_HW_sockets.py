@@ -14,6 +14,7 @@ absolute_path = os.path.abspath(relative_path)
 RDK = Robolink()
 RDK.AddFile(absolute_path)
 
+
 # Robot setup
 robot = RDK.Item("UR5e")
 base = RDK.Item("UR5e Base")
